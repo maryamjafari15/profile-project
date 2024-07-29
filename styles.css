@@ -1,0 +1,145 @@
+* , *::after , *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:cursive ;
+    color: #fff;
+}
+body{
+    background-color: black;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/Untitled-1.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.logo{
+    width:100px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left:10px;
+}
+nav ul{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    display: flex;
+}
+@media screen and (max-width:768px){
+
+    .navbar{
+        display: none;
+    }
+    
+}
+.navbar {
+    list-style: none;
+    padding: 2%;
+    padding-left: 30%;
+    
+  
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+nav ul  li a:hover{
+    text-decoration:3px underline;
+}
+.but1{
+    position: absolute;
+    top:80%;
+    left: 15%;
+    padding:20px 40px;
+    background: transparent;
+    border: 4px solid #3a1413;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.but1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 40px;
+    padding: 80px 0px 30px 0px;
+    text-align: center;
+}
+.about p{
+    font-size: 20px;
+    padding: 0px 20%;
+    text-align: center;
+   line-height: 50px;
+}
+.sample1{
+    width: 100px;
+    padding-bottom: 20px;
+}
+.arc{
+    width: 100px;
+    padding-bottom: 40%;
+}
+.skill{
+    width: 100%;
+    height: 100vh;
+}
+.skill2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 5%;
+}
+.part1 ,.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+.form1 {
+    background: transparent;
+    border: 4px solid #3a1413;
+    border-radius: 25px;
+    padding: 20px;
+    color: #fff;
+}
+.form2{
+   width: 240px;
+   height: 120px;
+    background: transparent;
+    border: 4px solid #3a1413;
+    border-radius: 25px;
+    padding:10px;
+   
+}
+.button{
+    padding:10px 30px;
+    background:#3a1413 ;
+    border: 4px solid #3a1413;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
